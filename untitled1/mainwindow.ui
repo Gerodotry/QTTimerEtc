@@ -17,7 +17,7 @@
    <string>QTalarm</string>
   </property>
   <property name="windowIcon">
-   <iconset>
+   <iconset resource="Icons.qrc">
     <normaloff>:/new/icons/Clock.png</normaloff>:/new/icons/Clock.png</iconset>
   </property>
   <property name="autoFillBackground">
@@ -209,7 +209,7 @@
       </property>
      </widget>
     </item>
-    <item row="6" column="6">
+    <item row="5" column="7">
      <widget class="QSlider" name="VolumeSlider">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
@@ -224,7 +224,7 @@
      <x>0</x>
      <y>0</y>
      <width>810</width>
-     <height>24</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -276,6 +276,8 @@
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
  <connections/>
 </ui>
